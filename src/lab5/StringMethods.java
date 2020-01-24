@@ -25,8 +25,7 @@ public class StringMethods {
 	}
 	
 	public StringBuilder reverse(String wordOriginal) {
-		strBuild.append(wordOriginal);
-		strBuild.reverse();
+		strBuild.append(wordOriginal).reverse();
 		return strBuild;
 		}
 	
